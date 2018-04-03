@@ -39,7 +39,7 @@ module.exports = class RecordUpdater {
     return this._api.domainRecordsUpdate(this._domain, record.id, data)
       .then(res => {
         if (res.response.statusCode == 200) {
-          return record;
+          return res.response.body.domain_record;
         }
 
         return Promise.reject("Can't update record");
