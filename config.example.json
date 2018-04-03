@@ -1,0 +1,6 @@
+{
+  "port": 3000,
+  "client_token": "1234abcdef1234abcdef",
+  "domain": "example.com",
+  "do_token": "12341234123412341234abcdefabcedf1234abcdef"
+}

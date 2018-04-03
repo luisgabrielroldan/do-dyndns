@@ -1,0 +1,13 @@
+{
+  "name": "dyn_dns",
+  "version": "1.0.0",
+  "main": "dyn_dns.js",
+  "license": "MIT",
+  "dependencies": {
+    "do-wrapper": "^3.11.1",
+    "express": "^4.16.3"
+  },
+  "bin": {
+    "dyn_dns": "./dyn_dns.js"
+  }
+}
